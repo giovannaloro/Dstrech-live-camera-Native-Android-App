@@ -1,0 +1,29 @@
+# Desktop and native build outputs
+*.o
+*.obj
+/dstrech
+/build-native/
+/build-desktop/
+
+# Android generated files and local tooling
+/android/.gradle/
+/android/.kotlin/
+/android/.idea/
+/android/local.properties
+/android/**/build/
+/android/**/.cxx/
+*.iml
+*.apk
+*.aab
+*.ap_
+
+# Local signing material
+*.jks
+*.keystore
+keystore.properties
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

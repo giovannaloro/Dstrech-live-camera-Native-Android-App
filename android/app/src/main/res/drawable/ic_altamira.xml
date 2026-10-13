@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Preserve the original photograph's 640:520 aspect ratio and fit it
+         inside the adaptive icon's safe area, including circular masks. -->
+    <item android:width="60dp" android:height="48.75dp" android:gravity="center">
+        <bitmap android:src="@drawable/altamira" android:gravity="fill" />
+    </item>
+</layer-list>
